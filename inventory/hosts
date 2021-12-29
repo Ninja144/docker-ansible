@@ -1,0 +1,10 @@
+[master_nodes]
+#master-node-1 ansible_host=192.168.10.2
+
+[worker_nodes]
+#worker-node-1 ansible_host=192.168.10.3
+#worker-node-2 ansible_host=192.168.10.4
+
+[server_ALL:children]
+master_nodes
+worker_nodes
