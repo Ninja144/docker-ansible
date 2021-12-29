@@ -4,4 +4,4 @@
   become: yes
 
   roles:
-    - { role: install_docker }
+    - { role: install_docker_redhat, when: ansible_os_family == "RedHat" }
