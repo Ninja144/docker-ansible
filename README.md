@@ -1,6 +1,6 @@
 # Deploy a Production Ready Docker in Cluster
 
-![Docker Logo](https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Docker_%28container_engine%29_logo.svg/640px-Docker_%28container_engine%29_logo.svg.png)
+![Docker Logo](https://www.docker.com/sites/default/files/d8/2019-07/horizontal-logo-monochromatic-white.png)
 
 If you have questions, check the documentation at [docs.docker.com/](https://docs.docker.com/)
 
