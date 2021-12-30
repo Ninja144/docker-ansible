@@ -11,6 +11,14 @@ To deploy the Docker you can use :
 ### Current release
 0.1
 
+### OS
+
+#### OS version
+
+* [x] CentOS 7 / RedHat 7
+* [ ] Debian
+* [ ] Ubuntu
+
 ### Ansible
 
 #### Ansible version
