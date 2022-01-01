@@ -15,7 +15,7 @@ To deploy the Docker you can use :
 
 #### OS version
 
-* [x] CentOS 7 / RedHat 7
+* [x] CentOS 7 or 8
 * [ ] Debian
 * [ ] Ubuntu
 
