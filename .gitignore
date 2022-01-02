@@ -9,5 +9,3 @@ lib/
 lib64
 pyvenv.cfg
 
-# Ansible Molecule
-roles/*/molecule/
