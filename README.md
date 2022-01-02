@@ -9,14 +9,14 @@ If you have questions, check the documentation at [docs.docker.com](https://docs
 To deploy the Docker you can use :
 
 ### Current release
-0.1
+0.2
 
 ### OS
 
 #### OS version
 
 * [x] CentOS 7 or 8
-* [ ] Debian
+* [x] Debian
 * [ ] Ubuntu
 
 ### Ansible
