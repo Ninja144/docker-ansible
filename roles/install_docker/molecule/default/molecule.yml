@@ -1,0 +1,24 @@
+---
+dependency:
+  name: galaxy
+driver:
+  name: docker
+platforms:
+  - name: centos7
+    image: solita/centos-systemd:7
+    command: /sbin/init
+    privileged: True
+    volumes:
+      - "/sys/fs/cgroup:/sys/fs/cgroup:rw"
+   
+  - name: debian10
+    image: alehaa/debian-systemd:buster
+    command: /sbin/init
+    privileged: True
+    volumes:
+      - "/sys/fs/cgroup:/sys/fs/cgroup:rw"
+
+provisioner:
+  name: ansible
+verifier:
+  name: ansible
