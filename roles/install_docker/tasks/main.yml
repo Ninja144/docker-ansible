@@ -40,6 +40,7 @@
         enabled: yes 
   when: ansible_os_family == "RedHat"
 
+
 - name: Install Docker in Debian
   block:
     - name: Remove old docker
@@ -91,5 +92,3 @@
         state: started
         enabled: yes 
   when: ansible_os_family == "Debian"
-
-

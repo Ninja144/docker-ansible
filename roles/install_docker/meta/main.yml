@@ -36,6 +36,9 @@ galaxy_info:
     - name: debian10
       versions:
       - 10
+    - name: ubuntu18
+      versions:
+      - 18
   #   - 25
   # - name: SomePlatform
   #   versions:
