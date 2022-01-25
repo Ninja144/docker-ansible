@@ -33,6 +33,11 @@
           - docker-ce-cli
           - containerd.io
 
+    - name: Copy config daemon.json
+      copy: 
+        src: "{{ src_file }}"
+        dest: "{{ dest_file }}"
+
     - name: Start docker
       systemd:
         name: docker
@@ -85,6 +90,11 @@
           - docker-ce-cli
           - containerd.io
         state: latest
+
+    - name: Copy config daemon.json
+      copy: 
+        src: "{{ src_file }}"
+        dest: "{{ dest_file }}"
 
     - name: Start docker
       systemd:

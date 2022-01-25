@@ -1,2 +1,4 @@
 ---
 # vars file for install_docker
+src_file: docker-config.json
+dest_file: /etc/docker/daemon.json

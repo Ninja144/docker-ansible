@@ -1,0 +1,10 @@
+{
+  "default-address-pools":
+  [
+    {"base":"172.39.0.0/16","size":24}
+  ],
+  "insecure-registries":
+  [
+    "172.19.19.2"
+  ]
+}
