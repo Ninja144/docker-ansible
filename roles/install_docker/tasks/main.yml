@@ -33,6 +33,14 @@
           - docker-ce-cli
           - containerd.io
 
+    - name: Create directory
+      file:
+        path: /etc/docker
+        state: directory
+        owner: root
+        group: root
+        mode: 0755
+
     - name: Copy config daemon.json
       copy: 
         src: "{{ src_file }}"
